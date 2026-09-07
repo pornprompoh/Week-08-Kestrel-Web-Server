@@ -20,9 +20,9 @@
 *ทดลองเปลี่ยนตัวต้านทานปรับค่าได้เป็น LDR (Light Dependent Resistor) ร่วมกับตัวต้านทาน 10 kΩ แบ่งแรงดัน*
 
 **ภาพถ่ายการต่อวงจรจริง:**
-`[แทรกรูปภาพหน้าจอ]`
+![alt text](/Report/img/image-6.png)
 
 ---
 
 **ภาพหน้าจอ ESP-IDF Monitor:**
-`[แทรกรูปภาพหน้าจอ Monitor]`
+![alt text](/Report/img/image-7.png)

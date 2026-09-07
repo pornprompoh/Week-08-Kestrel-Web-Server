@@ -25,3 +25,28 @@ Thumbs.db
 
 # Others
 appsettings.Development.json
+
+# ESP-IDF Build files
+build/
+sdkconfig
+sdkconfig.old
+
+# VS Code
+.vscode/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
