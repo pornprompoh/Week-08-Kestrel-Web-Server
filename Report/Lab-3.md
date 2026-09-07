@@ -23,7 +23,12 @@
 **โค้ดส่วนที่แก้ไขใน Endpoint `/api/telemetry` (Program.cs):**
 
 ```csharp
-// [คัดลอกโค้ดส่วนที่คุณได้เพิ่มตรรกะ if-else หรือ switch สำหรับการกำหนดค่า alertLevel มาวางที่นี่]
+    string alert = "NORMAL";
+    if (percent > 85.0) {
+        alert = "DANGER (HIGH)";
+    } else if (percent >= 70.0) {
+        alert = "WARNING";
+    }
 ```
 
 **ภาพหน้าจอผลลัพธ์บนเบราว์เซอร์:**
